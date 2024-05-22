@@ -1,0 +1,80 @@
+p {
+  color: red;
+  font-size: 12px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  padding: 25px;
+  border: black 2px dashed;
+}
+
+.title {
+  background-color: blue;
+}
+
+div > p {
+  font-weight: bold;
+}
+
+#test {
+  background-color: aqua;
+}
+
+
+.container {
+  display: flex;
+  border: red 1px solid;
+  width: 500px;
+  height: 500px;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.d1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.d2 {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+.d3 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+
+.d4 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+
+.d5 {
+  height: 50px;
+  width: 50px;
+  background-color: #000000;
+}
+
+.d6 {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+}
+
+.large {
+  height: 100px;
+  width: 100px;
+}
